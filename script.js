@@ -8,10 +8,13 @@ function contarCaracteres() {
   if (textarea.value.length === 250){
     contador.style.color = 'red';
     textarea.style.borderColor = 'red';
+    textarea.style.color = 'red';
   }
 
   else if(textarea.value.length === 0) {
     contador.style.color = 'black';
+    textarea.style.borderColor = 'red';
+    textarea.style.color = 'red';
   }
 }
 
