@@ -13,8 +13,8 @@ function contarCaracteres() {
 
   else if(textarea.value.length === 0) {
     contador.style.color = 'black';
-    textarea.style.borderColor = 'red';
-    textarea.style.color = 'red';
+    textarea.style.borderColor = 'black';
+    textarea.style.color = 'balck';
   }
 }
 
