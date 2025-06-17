@@ -1,0 +1,29 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+textarea {
+  width: 500px;
+  height: 140px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  outline: none;
+}
+
+.contador-container {
+    margin-top: -30px;
+    margin-left: 460px;
+    font-size: 14px;
+}
+
+#miTextarea.red-border:focus {
+  border: 2px solid red;
+}
